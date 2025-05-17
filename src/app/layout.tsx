@@ -1,5 +1,5 @@
 import "./globals.css";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -16,11 +16,16 @@ const geistMono = Geist_Mono({
   preload: true,
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#10b981",
+};
+
 export const metadata: Metadata = {
   title: "Wanderlust Escapes - Travel with Ease",
   description: "Discover amazing travel destinations with Wanderlust Escapes",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
-  themeColor: "#10b981",
   icons: {
     icon: "/favicon.ico",
   },
