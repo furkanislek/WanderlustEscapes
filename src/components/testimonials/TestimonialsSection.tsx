@@ -13,7 +13,7 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    avatarUrl: "https://randomuser.me/api/portraits/women/44.jpg",
+    avatarUrl: "/photos/random1.jpg",
     name: "Emily Torres",
     rating: 5,
     testimonial:
@@ -21,7 +21,7 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 2,
-    avatarUrl: "https://randomuser.me/api/portraits/men/32.jpg",
+    avatarUrl: "/photos/random2.jpg",
     name: "Alex Johnson",
     rating: 5,
     testimonial:
@@ -29,7 +29,7 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 3,
-    avatarUrl: "https://randomuser.me/api/portraits/women/67.jpg",
+    avatarUrl: "/photos/random3.jpg",
     name: "Aisha Patel",
     rating: 5,
     testimonial:
@@ -37,7 +37,7 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 4,
-    avatarUrl: "https://randomuser.me/api/portraits/women/17.jpg",
+    avatarUrl: "/photos/random4.jpg",
     name: "Claire Zhang",
     rating: 5,
     testimonial:

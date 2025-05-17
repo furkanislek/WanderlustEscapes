@@ -5,7 +5,7 @@ const Menu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="px-4 sm:px-6 py-4 w-full mx-auto">
+    <div className="px-4 sm:px-6 py-4 w-full lg:max-w-[80vw] mx-auto">
       <div className="flex justify-between items-center">
         <div className="font-bold text-xl">
           <span>Wanderlust</span>
