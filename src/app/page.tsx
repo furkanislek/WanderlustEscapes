@@ -7,6 +7,9 @@ import { TopDestinations } from "@/components/destinations";
 import { TravelTipsSection } from "@/components/travel-tips";
 import { TestimonialsSection } from "@/components/testimonials";
 
+export const dynamic = "force-static";
+export const revalidate = 86400;
+
 export default function Home() {
   return (
     <div className="min-h-screen ">

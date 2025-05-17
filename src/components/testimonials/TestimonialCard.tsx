@@ -30,6 +30,10 @@ const TestimonialCard = ({
             height={144}
             className="object-cover w-full h-full"
             onError={() => setImageError(true)}
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0IiBoZWlnaHQ9IjE0NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMTBiOTgxIi8+PC9zdmc+"
+            priority={false}
           />
         ) : (
           <span className="text-white text-2xl font-bold">

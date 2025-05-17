@@ -2,13 +2,13 @@ const Title = () => {
   return (
     <div className="flex flex-col items-center justify-between gap-4 px-4 py-8">
       <div className="mb-4">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-center">
           Unforgettable Journeys
         </h1>
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-center">
           Unbeatable Prices - Your
         </h1>
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-center">
           Adventure Starts Here!
         </h1>
       </div>
