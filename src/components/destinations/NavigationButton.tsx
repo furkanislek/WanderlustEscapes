@@ -10,7 +10,7 @@ interface NavigationButtonProps {
 const NavigationButton = ({ direction, onClick }: NavigationButtonProps) => {
   return (
     <button
-      className="absolute top-1/2 transform -translate-y-1/2 bg-yellow-400 rounded-full w-16 h-16 flex items-center justify-center z-10 hover:bg-yellow-500 transition duration-200 shadow-lg hover:scale-110"
+      className="absolute mt-30 lg:mt-0 top-1/2 transform -translate-y-1/2 bg-yellow-400 rounded-full w-16 h-16 flex items-center justify-center z-10 hover:bg-yellow-500 transition duration-200 shadow-lg hover:scale-110"
       style={{ [direction === "prev" ? "left" : "right"]: "30px" }}
       onClick={onClick}
       aria-label={direction === "prev" ? "Önceki" : "Sonraki"}

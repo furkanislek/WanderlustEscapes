@@ -94,8 +94,7 @@ const DestinationSlider = () => {
 
   return (
     <div className="relative w-full rounded-lg overflow-hidden h-[70vh] min-h-[600px]">
-      <div
-        className={`h-full w-full transition-transform duration-500 ease-in-out ${
+      <div className={`h-full w-full transition-transform duration-500 ease-in-out ${
           animating
             ? direction === "left"
               ? "translate-x-10 opacity-0"

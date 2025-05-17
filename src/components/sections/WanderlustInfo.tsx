@@ -4,7 +4,7 @@ import { InfoSection } from "./index";
 const WanderlustInfo = () => {
   return (
     <div className="py-12 bg-white">
-      <div className="container mx-auto max-w-[80vw]">
+      <div className="container mx-auto max-w-[100vw] lg:max-w-[80vw]">
         <div className="grid md:grid-cols-2 gap-12">
           <InfoSection
             src="/svgs/ourmission.svg"

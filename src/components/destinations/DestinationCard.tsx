@@ -58,7 +58,7 @@ const DestinationCard = ({
               : "opacity-0 translate-x-10 scale-105"
           }`}
         >
-          <h3 className="text-5xl font-bold mb-4">{title}</h3>
+          <h3 className="text-2xl lg:text-5xl font-bold mb-4">{title}</h3>
           <p className="text-lg mb-4">{description}</p>
           <p className="text-yellow-400 font-semibold">{price}</p>
         </div>

@@ -17,7 +17,7 @@ const InfoSection = ({
   extraContent,
 }: InfoSectionProps) => {
   return (
-    <div className="py-4 px-4   max-w-[60vw]">
+    <div className="py-4 px-4   lg:max-w-[60vw]">
       <div className="flex items-center">
         <div className="w-1/3 flex justify-end pr-4">
           <div className="relative">
